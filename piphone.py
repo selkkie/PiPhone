@@ -333,14 +333,14 @@ while(True):
   if screenMode == 0 :
     myfont = pygame.font.SysFont("Arial", 40)
     label = myfont.render(numberstring, 1, (255,255,255))
-    screen.blit(label, (10, 2))
+    screen.blit(label, (30, 2))
   else:
     myfont = pygame.font.SysFont("Arial", 35)
     label = myfont.render("Calling", 1, (255,255,255))
-    screen.blit(label, (10, 80))
+    screen.blit(label, (30, 80))
     myfont = pygame.font.SysFont("Arial", 35)
     label = myfont.render(numberstring + "...", 1, (255,255,255))
-    screen.blit(label, (10, 120))
+    screen.blit(label, (30, 120))
 
   pygame.display.update()
 
